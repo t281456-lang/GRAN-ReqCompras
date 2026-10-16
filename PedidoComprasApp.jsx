@@ -200,7 +200,7 @@ export default function PedidoComprasApp() {
             <img
               src={granLogo}
               alt="Sociedade Esportiva Gran São João"
-              className={`object-contain ${className}`}
+              className="w-10 h-10 object-contain rounded-md border border-slate-700" 
             />
             <div>
               <h1 className="font-bold text-lg leading-tight">
