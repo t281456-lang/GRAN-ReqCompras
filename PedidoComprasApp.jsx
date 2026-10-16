@@ -333,9 +333,9 @@ export default function PedidoComprasApp() {
                     onChange={handleInputChange}
                     className="w-full px-3 py-1.5 text-sm rounded border border-slate-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-white"
                   >
-                    <option value="Baixa">Baixa</option>
-                    <option value="Normal">Normal</option>
-                    <option value="Alta">Alta</option>
+                    <option value="Baixa">Baixa (1 Mês)</option>
+                    <option value="Normal">Normal(2 Semanas)</option>
+                    <option value="Alta">Alta (1 Semana)</option>
                     <option value="Urgente">Urgente</option>
                   </select>
                 </div>
